@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+    
+    
+    
 html {
     background-color: grey;
 }
@@ -8,30 +14,24 @@ body {
     
 }
 
+.header {
+    height: 260px;
+}
+
 .head {
     background-image: url('flatirons.jpg');
     background-size: cover;
     position: relative;
     z-index: 1;
-}
-
-
-.head {
-      margin: 20px 20px 0px 20px;
-      height: 300px;
-      position: relative;
-      /* width: 100%; */
-      z-index: 1;
+    margin: 20px 20px 0px 20px;
+    height: 260px;
 }
 
 .background-color {
-    background-color: rgba(165, 26, 26, 0.8);
-    /* background-color: rgb(255, 16, 16);
-    opacity: 0.4; */
-    height: 300px;
+    background-color: rgba(165, 26, 26, 0.85);
+    height: 260px;
     position: relative;
     z-index: 1;
-    width: 100%;
     margin: 0;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .header-text {
     position: relative;
-    z-index: 99 !important;
+    z-index: 99;
     width: 100%;
     opacity: 2;
     font-weight: bold;
@@ -49,15 +49,10 @@ body {
 
 .head h1 {
     font-size: 60px;
-    z-index: 99;
 }
 
 .head h4 {
-    font-size: 30px;
-}
-
-.head p {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .header-pic {
@@ -69,24 +64,22 @@ body {
 }
 
 .main-row {
-      margin: 20px;
+      /* margin: 20px; */
       color: rgb(79, 73, 73);
-      margin-left: 0px;
+      /* margin-left: 0px; */
+      margin: auto;
+      
 }
 
 .nav {
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 a {
-      color: rgb(79, 73, 73);
+      color: rgb(165, 26, 26);
       font-size: 18px;
-      /* font-weight: bold; */
-      /* margin-bottom: 5px; */
-      /* text-align: center; */
+      font-weight: bold;
 }
-
-
 
 li img {
       margin-bottom: 70px;
@@ -94,24 +87,23 @@ li img {
       margin-bottom: 40px;
 }
 
-
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: grey !important;
     background-color: white;
+    font-style: italic;
 }
 
 .affix {
-top: 20px;
+top: 30px;
 z-index: 9999 !important;
 }
 
-div.col-sm-9 div {
+div.col-sm-10 div {
 height: 450px;
-font-size: 18px;
-
+font-size: 16px;
 }
 
-div.col-sm-9 {
+div.col-sm-10 {
     border-left: 1px solid grey;
     padding-left: 60px;
     
@@ -121,7 +113,7 @@ div.col-sm-9 {
 
 
 
-
+/***********************Media Queries***********************************************/
 
 @media screen and (max-width: 810px) {
     #myScrollspy {
