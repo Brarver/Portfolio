@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    position: relative;
+    position: absolute;
     font-family: 'Montserrat', sans-serif; 
     
 }
@@ -20,23 +20,31 @@ body {
       margin: 20px 20px 0px 20px;
       height: 300px;
       position: relative;
-      width: 100%;
+      /* width: 100%; */
       z-index: 1;
 }
 
 .background-color {
-    background-color: rgb(255, 16, 16);
-    opacity: 0.4;
+    background-color: rgba(165, 26, 26, 0.8);
+    /* background-color: rgb(255, 16, 16);
+    opacity: 0.4; */
     height: 300px;
-    z-index: 1;
     position: relative;
+    z-index: 1;
     width: 100%;
+    margin: 0;
+}
+
+.col-sm-12 {
+    padding: 0;
 }
 
 .header-text {
-    z-index: 99 !important;
     position: relative;
+    z-index: 99 !important;
     width: 100%;
+    opacity: 2;
+    font-weight: bold;
 }
 
 .head h1 {
