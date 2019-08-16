@@ -79,7 +79,7 @@ body {
 .nav {
     /* text-align: center; */
     /* margin: auto; */
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 li {
@@ -118,7 +118,9 @@ li img {
     /* position: relative; */
     /* width: 100%; */
   
-}
+    width: 25%;
+    margin-left: -17px;
+ }
 
 .affix-top {
     margin: 0 auto;
@@ -173,3 +175,5 @@ div.col-sm-9 {
 
 
     }
+
+    /* https://stackoverflow.com/questions/42744135/bootstrap-affix-moves-element-to-left-side-of-container */
