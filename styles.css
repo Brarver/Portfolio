@@ -131,6 +131,13 @@ div.col-sm-9 {
     /* margin-bottom: 50px; */
 }
 
+button {
+    background-color: rgba(165, 26, 26, 0.85);
+    color: white;
+    font-variant: small-caps;
+    padding: 4px;
+}
+
 /******************Portfolio************************************/
 
 .content-wrapper {
