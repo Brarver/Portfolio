@@ -23,9 +23,30 @@ body {
     height: 260px;
 }
 
-.head {
+/* .head {
     background-image: url('images/flatirons.jpg');
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px 20px 0px 20px;
+    height: 260px;
+} */
+
+/* .head {
+    background-image: url('images/flatirons.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    height: 260px;
+    position: relative;
+} */
+
+.head {
+    background-image: url('images/flatirons.jpg');
+    background-size: 100%;
+    background-position: 0px -30px;
     position: relative;
     z-index: 1;
     margin: 20px 20px 0px 20px;
