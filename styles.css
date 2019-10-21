@@ -138,6 +138,17 @@ button {
     padding: 4px;
 }
 
+.about {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 24px;
+}
+
+.about p {
+    line-height: 40px;
+}
+
 /******************Portfolio************************************/
 
 .content-wrapper {
